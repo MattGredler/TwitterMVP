@@ -1,0 +1,231 @@
+body {
+  background-color: #e2e9ee;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+#main-grid {
+  display: grid;
+  grid-template-rows: 360px 46px 1fr;
+}
+header {
+  background: #ffffff;
+
+  position: fixed;
+  height: 46px;
+  left: 0;
+  right: 0;
+}
+
+#topTweet {
+  z-index: 2;
+}
+
+#cover {
+  background-image: url("/images/banner.jpg");
+}
+
+nav {
+  background: #ffffff;
+}
+
+main {
+  background: papayawhip;
+}
+/* .conatinerFeed{
+    width: 1190px;
+    margin: 0 auto;
+    position: relative; */
+
+.containerfeed {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 15px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 40px;
+  background-color: #e2e9ee;
+  height: fit-content;
+  grid-auto-rows: fit-content;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+
+.leftFeed {
+  padding: 7px;
+}
+
+.midFeed {
+  background-color: #ffffff;
+  padding: 7px;
+}
+
+.rightFeed {
+  background-color: #ffffff;
+  padding: 7px;
+  height: 30%;
+}
+
+.topButton {
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  left: 80%;
+  bottom: 15px;
+  border: solid 1px #1da1f2;
+}
+
+
+
+.modalContainer {
+  background: rgba(20, 23, 26, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.portrait {
+  background-image: url("/images/profile.jpeg");
+  height: 200px;
+  border-radius: 225px;
+  background-size: cover;
+  width: 200px;
+  border: 7px solid white;
+  position: relative;
+  top: 225px;
+  left: 205px;
+}
+
+.modal {
+  width: 600px;
+  margin: 40px auto;
+  height: 180px;
+  background: white;
+  border-radius: 7px;
+  padding: 0 15px 10px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.birdie {
+  color: #1da1f2;
+  position: relative;
+  left: 18.5%;
+  top: 14px;
+}
+
+.rightButton {
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  border: solid 1px #1da1f2;
+  position: relative;
+  left: 0%;
+  top: 110%;
+  height: 50px;
+  width: 200px;
+}
+
+.home{
+    position: relative;
+    font-weight: bold;
+    left: 16%;
+    font-size: .7em;
+}
+
+.xButton{
+  color: #5B6A73;
+  border: none;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  position: relative;
+  left: 49%;
+  top: 6%;
+}
+
+.modalButton{
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  left: 32%;
+  top: 10%;
+  border: solid 1px #1da1f2;
+}
+
+textarea{
+  min-height: 70%;
+  min-width: 92%;
+
+}
+
+h2{
+  font-weight: bolder;
+}
+
+.handle{
+  font-weight: bolder;
+  font-size: .7em;
+}
+
+.tweetMeta{
+  color: #5B6B76;
+}
+
+.fa-thumbtack{
+  color: #009999;
+  size: 7px;
+}
+
+.pinned{
+color: #5B6B76;
+font-size: .7em;
+}
+
+hr{
+  height: 2px;
+  border: none;
+  width: 115%;
+  padding: 0;
+  background-color: #E2E9EE;
+  
+}
+
+.deleteTweet{
+  position: relative;
+  left: 52%;
+  color: #5B6A73;
+  border: none;
+  background-color: #FFFFFF;
+  font-weight: 400;
+}
+
+.miniportrait{
+  background-image: url("/images/profile.jpeg");
+  height: 50px;
+  border-radius: 45px;
+  background-size: cover;
+  width: 50px;
+  border: 2px solid white;
+  position: relative;
+  top: 225px;
+  left: 205px;
+}

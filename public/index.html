@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Twitter</title>
+    <link rel="icon" href="/images/favicon-twitter.ico">
+</head>
+
+<body>
+    <header id="topTweet">
+        <a class="birdie"><i class="fab fa-twitter"></i></a>
+        <p class="home">Home</p>
+
+        <button class="topButton" type="button" placeholder="tweet">tweet</button>
+
+    </header>
+    <div id="main-grid">
+        <div id=cover>
+            <div class="portrait">
+
+            </div>
+
+        </div>
+
+        <nav>
+
+        </nav>
+
+        <main>
+            <div class="containerfeed">
+                <div class="leftFeed">
+                    <h1>I Am Devloper</h1>
+                    <br>
+
+                    <p>@imadevloper</p>
+                    <br>
+                    <br>
+                    <p>The Vista of Twitter accounts
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odio quo alias sit repudiandae
+                        quidem iure dicta quia, dolorem vel beatae fuga minima officiis itaque nihil, maiores
+                        quibusdam,
+                        accusamus dolore consequuntur temporibus. Cumque minus vel a, odio sint.
+                    </p>
+                </div>
+                <div class="midFeed">
+                    <div class="tweet">
+                        <i class="fas fa-thumbtack"></i> <span class="pinned"> Pinned Tweet</span>
+                        <br>
+                        <br>
+                        <div class="miniPortrait">
+
+                            </div><h4 class="handle">
+                            I Am Devloper
+                            <span class="tweetMeta"> @iamdevloper Oct. 5th</span> <button class="deleteTweet" type="button">x</button>
+
+                        </h4>
+                        <br>
+                        <p>1969:
+                            <br>
+                            -what're you doing with that 2KB of RAM?
+                            <br>
+                            -sending people to the moon
+                            <br>
+                            2017:
+                            <br>
+                            -what're you doing with that 1.5GB of RAM?
+                            <br>
+                            -running Slack
+                        </p>
+                        <br>
+                        <hr>
+                    </div>
+                </div>
+                <div class="rightFeed">
+                    <h1>New to Twitter?</h1>
+                    <br>
+                    <p>Sign up to get your own personlized timeline!</p>
+                    <br>
+                    <button class="rightButton" type="button">Sign up</button>
+                </div>
+            </div>
+        </main>
+        <div class="modalContainer hide">
+            <div class="modal">
+                <button class="xButton" type="button">x</button>
+                <span class="closeModal"></span>
+                <h2>Compose new Tweet </h2></span>
+                <textarea id="newTweetText" rows="8" columns="10" placeholder="What's on your mind?"></textarea>
+                <button class="modalButton" type="button" placeholder="tweet">tweet</button>
+                </textarea>
+            </div>
+        </div>
+        <div class="signUpFormContainer hide">
+            <div class="signUpForm">
+                <button class="xButton" type="button">x</button>
+                <span class="closeModal"></span>
+                <h2>Compose new Tweet </h2></span>
+                <textarea id="newTweetText" rows="8" columns="10" placeholder="What's on your mind?"></textarea>
+                <button class="modalButton" type="button" placeholder="tweet">tweet</button>
+                </textarea>
+            </div>
+        </div>
+
+        <!-- wrap in form tag to take data away from input -->
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="app.js"></script>
+
+</html>
